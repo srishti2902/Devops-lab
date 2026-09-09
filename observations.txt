@@ -1,0 +1,21 @@
+Experiment: Containerization of a Sample Application
+
+Objective:
+To containerize a sample Python application using Docker.
+
+Observations:
+
+1. Docker was successfully installed and verified.
+2. A Python application was created.
+3. A Dockerfile was created to define the application environment.
+4. A Docker image was successfully built.
+5. A container was created from the Docker image.
+6. Port 5000 was mapped from the container to the host.
+7. The application was successfully accessed through the browser.
+8. Docker history displayed the image build layers.
+9. The container was stopped and started successfully.
+10. Container logs were viewed using docker logs.
+
+Result:
+The sample Python application was successfully containerized
+and executed using Docker.

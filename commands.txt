@@ -1,0 +1,22 @@
+docker --version
+
+mkdir docker-project
+cd docker-project
+
+docker build -t my-docker-app .
+
+docker images
+
+docker run -d -p 5000:5000 --name my-container my-docker-app
+
+docker ps
+
+docker history my-docker-app
+
+docker stop my-container
+
+docker ps -a
+
+docker start my-container
+
+docker logs my-container
